@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
 
-public class FindPalindromeIn_aString {
+public class palindrome {
 	
 	public static String Free= "madam sree bob";
 	public ArrayList<String> nonpalindrome= new ArrayList<String>();
 	public ArrayList<String> palindrome= new ArrayList<String>();
 
-	//ssssssss
+	//ssssssssss
 	public List<String> checkifpalindrome(String str)
 	{
 		
@@ -29,7 +29,7 @@ public class FindPalindromeIn_aString {
 
 	public static void main(String[] args)
 	{
-		FindPalindromeIn_aString str= new FindPalindromeIn_aString();
+		palindrome str= new palindrome();
 		System.out.println(str.checkifpalindrome(Free));
 		
 	}
